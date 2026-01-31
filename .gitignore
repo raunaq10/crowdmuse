@@ -1,0 +1,35 @@
+node_modules/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+.env
+.DS_Store
+*.log
+
+# Dataset folders (too large for GitHub)
+dataset/
+dataset_backup/
+
+# Face recognition models (large files)
+face_recognition/models/*.yml
+face_recognition/models/*.pkl
+face_recognition/__pycache__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
